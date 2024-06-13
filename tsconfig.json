@@ -20,7 +20,6 @@
     "noEmit": true,
     "jsx": "react-jsx"
   },
-  "include": [
-    "src"
-  ]
+  "include": ["src/**/*", "webpack.config.js", "craco.config.js"],
+  "exclude": ["node_modules", "build"]
 }
