@@ -67,26 +67,26 @@ const App: React.FC = () => {
       </div>
       <div>
         <Button variant="primary-hover" onClick={() => alert('Primary Hover Button Clicked')}>
-          Primary Hover
+          Primary H
         </Button>
         <Button variant="secondary-hover" onClick={() => alert('Secondary Hover Button Clicked')}>
-          Secondary Hover
+          Secondary H
         </Button>
       </div>
       <div>
         <Button variant="primary-active" onClick={() => alert('Primary Active Button Clicked')}>
-          Primary Active
+          Primary A
         </Button>
         <Button variant="secondary-active" onClick={() => alert('Secondary Active Button Clicked')}>
-          Secondary Active
+          Secondary A
         </Button>
       </div>
       <div>
         <Button variant="primary-disabled" disabled>
-          Primary Disabled
+          Primary D
         </Button>
         <Button variant="secondary-disabled" disabled>
-          Secondary Disabled
+          Secondary D
         </Button>
       </div>
 

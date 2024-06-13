@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './SearchInput.module.scss';
 
+
 export type SearchInputProps = {
   value?: string;
   placeholder?: string;
@@ -11,7 +12,7 @@ export type SearchInputProps = {
 const SearchInput: React.FC<SearchInputProps> = ({ value, placeholder, onChange, onClear }) => {
   return (
     <div className={styles.searchInput}>
-      <img src="/assets/icons/Search.svg" alt="Search" className={styles.icon} />
+      <img src='/public/assets/icons/search.svg' alt="Search" className={styles.icon} />
       <input
         type="text"
         value={value}

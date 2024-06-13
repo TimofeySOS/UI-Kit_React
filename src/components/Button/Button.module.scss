@@ -3,7 +3,7 @@ $primary-hover-color: hsl(230, 100%, 67%);
 $primary-active-color: hsl(230, 100%, 80%);
 $primary-disabled-color: hsl(230, 100%, 88%);
 
-$secondary-color: hsl(210, 5%, 45%);
+$secondary-color: hsl(207, 5%, 45%);
 $secondary-hover-color: hsl(210, 6%, 40%);
 $secondary-active-color: hsl(210, 6%, 34%);
 $secondary-disabled-color: hsl(210, 9%, 73%);
@@ -28,7 +28,8 @@ $secondary-disabled-color: lighten($secondary-color, 50%);
   cursor: pointer;
   transition: background-color 0.3s;
   margin: 26px;
-  width: 190px;
+  width: 160px;
+  height: 38px;
 
   &.primary {
     background-color: $primary-color;
